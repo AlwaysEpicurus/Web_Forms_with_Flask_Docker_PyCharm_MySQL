@@ -2,9 +2,9 @@
 
 This is a class project to learn how to set-up Docker, Flask, mySQL with Pycharm.
 
-[Download Assignment Here](PPFSQL_Assignment.pdf)
+[Download Assignment Here... COMING SOON]()
 
-[View Assignment Video here]()
+[View Assignment Video here... COMING SOON]()
 
 # Postman Screen Shot
 
