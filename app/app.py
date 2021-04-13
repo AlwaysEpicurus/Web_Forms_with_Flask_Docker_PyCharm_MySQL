@@ -27,7 +27,7 @@ def cities_import() -> List[Dict]:
 
 @app.route('/')
 def index():
-    user = {'username': 'Miguel'}
+    user = {'username': 'David'}
     cities_data = cities_import()
 
     return render_template('index.html', title='Home', user=user, cities=cities_data)
