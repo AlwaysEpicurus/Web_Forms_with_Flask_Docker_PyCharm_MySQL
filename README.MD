@@ -6,10 +6,18 @@ This is a class project to learn how to set-up Docker, Flask, mySQL with Pycharm
 
 [View Assignment Video here... COMING SOON]()
 
-# Postman Screen Shot
+# Postman
 
 ![postman request output](screenshots/Postman.png)
 
-# SQL Dta Screenshot
+# SQL Dta 
 
 ![pychartm data query](screenshots/query.png)
+
+# localhost:5000 Index - Formatted
+
+![pychartm data query](screenshots/localhost_indexpage.png)
+
+# # Postman with updated format
+
+![postman request output](screenshots/postman2.png)
