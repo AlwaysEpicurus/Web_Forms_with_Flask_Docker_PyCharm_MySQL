@@ -2,11 +2,11 @@
 {% block content %}
 
 <div class="card" class="m-5 p-2">
-    <h5 class="card-title">{{ city.year }} - {{ city.fldAbbreviation }}</h5>
+    <h5 class="card-title">YEAR: {{ city.year }}</h5>
 
     <ul class="list-group list-group-flush">
-        <li class="list-group-item">{{ city.mileage }}</li>
-        <li class="list-group-item">{{ city.Price }}</li>
+        <li class="list-group-item">Mileage (thousands): {{ city.mileage }}</li>
+        <li class="list-group-item">Price: {{ city.price }}</li>
     </ul>
     <div class="card-body">
         <a href="/edit/{{city.id}}" class="card-link btn btn-primary">edit</a>
