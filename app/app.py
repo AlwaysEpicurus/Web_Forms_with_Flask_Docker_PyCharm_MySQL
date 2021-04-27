@@ -61,10 +61,10 @@ def form_insert_get():
 @app.route('/cities/new', methods=['POST'])
 def form_insert_post():
     cursor = mysql.get_db().cursor()
-    inputData = (request.form.get('year'), request.form.get('mileage'), request.form.get('fldLong'),
+    inputData = (request.form.get('year'), request.form.get('mileage'), request.form.get('price'),
                  request.form.get('fldCountry'), request.form.get('fldAbbreviation'),
                  request.form.get('fldCapitalStatus'), request.form.get('fldPopulation'))
-    sql_insert_query = """INSERT INTO tblCitiesImport (year,mileage,fldLong,fldCountry,fldAbbreviation,fldCapitalStatus,fldPopulation) VALUES (%s, %s,%s, %s,%s, %s,%s) """
+    sql_insert_query = """INSERT INTO tblCitiesImport (year,mileage,price,fldCountry,fldAbbreviation,fldCapitalStatus,fldPopulation) VALUES (%s, %s,%s, %s,%s, %s,%s) """
     cursor.execute(sql_insert_query, inputData)
     mysql.get_db().commit()
     return redirect("/", code=302)
