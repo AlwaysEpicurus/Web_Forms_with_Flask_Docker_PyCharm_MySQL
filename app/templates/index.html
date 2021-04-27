@@ -4,11 +4,8 @@
     <thead>
     <tr>
         <th scope="col">Year</th>
-        <th scope="col">Mileage</th>
+        <th scope="col">Mileage (thousands)</th>
         <th scope="col">Price</th>
-        <th scope="col">Abbreviation</th>
-        <th scope="col">Capital Status</th>
-        <th scope="col">Population</th>
     </tr>
     </thead>
     <tbody>
@@ -17,9 +14,6 @@
         <td><a href="view/{{city.id}}">{{ city.year }}</a></td>
         <td>{{ city.mileage }}</td>
         <td>{{ city.price }}</td>
-        <td>{{ city.fldAbbreviation }}</td>
-        <td>{{ city.fldCapitalStatus }}</td>
-        <td>{{ city.fldPopulation }}</td>
     </tr>
     {% endfor %}
     </tbody>
